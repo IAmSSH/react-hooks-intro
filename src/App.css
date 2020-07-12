@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__items {
+  list-style-type: none;
+  font-size: large;
+  cursor: pointer;
+  margin: 0 7em;
+}
+
+.navbar__items a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar__items a:hover {
+  text-decoration: underline;
+  color: grey;
+}
